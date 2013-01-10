@@ -1,6 +1,6 @@
 {
   "name": "passport-deskcom",
-  "version": "0.0.1",
+  "version": "0.0.1b",
   "description": "Desk.com authentication strategy for Passport.",
   "author": {
       "name": "Misato Takahashi",
