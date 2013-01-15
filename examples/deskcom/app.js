@@ -19,8 +19,8 @@ passport.use(
         {
             consumerKey: DESKCOM_CONSUMER_KEY,
             consumerSecret: DESKCOM_CONSUMER_SECRET,
-            site: "https://spotlight.desk.com",
-	    callbackURL: "http://127.0.0.1:3000/auth/deskcom/callback"
+            site: "https://example.desk.com",
+	        callbackURL: "http://127.0.0.1:3000/auth/deskcom/callback"
         },
         function(token, tokenSecret, profile, done) {
             process.nextTick(function () {
